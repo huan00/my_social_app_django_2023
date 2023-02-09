@@ -1,0 +1,11 @@
+<h2>Post <a href="">(+)</a></h2>
+<ul>
+  {% for post in posts %}
+  <li>
+    <a href="">{{ post.firstName }} {{post.lastName}}</a>
+    <h1>{{post.id}}</h1>
+    <img src="{{post.image.url}}" alt="" width="50px" height="50px">
+    <h1>{{post.image.url}}</h1>
+  </li>
+  {% endfor %}
+</ul>
